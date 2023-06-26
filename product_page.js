@@ -9,3 +9,7 @@ function changeText(button) {
 
   localStorage.setItem(button.id, "clicked");
 }
+
+    function goBack() {
+        history.back();
+    }
